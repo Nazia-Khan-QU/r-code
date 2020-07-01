@@ -39,7 +39,7 @@ weather_data  %>%
 
 #Answer d
 
-total_electricity_produced <- sum(weather_data$"power") /1e6
+total_electricity_produced <- 49 * (sum(weather_data$"power") /1e6)
 
 #Answer e
 
